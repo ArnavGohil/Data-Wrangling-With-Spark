@@ -13,8 +13,8 @@ The ER Diagram for the project -
 
 ### PROJECT FILES
 
-1. etl.py - This is the script for creating the main ETL Pipeline. It takes data from the S3 bucket files, converts the JSON file to Spark DataFrames, converts it into the required facts and dimensions table and finally converts the table into parquet format and stores it back into a S3 bucket. To execute this file, run the following command in Terminal - ``` python etl.py ```
+1. ```etl.py``` - This is the script for creating the main ETL Pipeline. It takes data from the S3 bucket files, converts the JSON file to Spark DataFrames, converts it into the required facts and dimensions table and finally converts the table into parquet format and stores it back into a S3 bucket. To execute this file, run the following command in Terminal - ``` python etl.py ```
 
-2. dl.cfg - Contains the AWS credentials.
+2. ```dl.cfg``` - Contains the AWS credentials.
 
-Thankyou :sparkles:
+:sparkles:
